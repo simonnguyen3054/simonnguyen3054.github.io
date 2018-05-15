@@ -1,0 +1,73 @@
+body {
+  background: url("../images/background_icon.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.center {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#menu {
+  background-color: #ffffff;
+  border-bottom: #cccccc solid;
+  border-width: thin;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+
+li {
+  float: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#logo a {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+
+.menu-item {
+  float: right;
+  color: #cccccc;
+}
+
+.menu-item a {
+  color: #777777;
+}
+
+li a {
+  display: inline;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.pipe::after {
+  content: "|";
+  opacity: 0.5;
+}
+
+#about_me {
+  background-color: #ffffff;
+  margin-top: 50px;
+  padding: 25px 0 115px;
+}
+
+img {
+  width: 200px;
+}
+
+#profile_picture {
+  max-height: 200px;
+  overflow: hidden;
+  float: left;
+}
+
+#about_me p {
+  line-height: 2;
+}
+
+p::first-line {
+  line-height: 1;
+}
