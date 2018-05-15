@@ -51,7 +51,7 @@ li a {
 #about_me {
   background-color: #ffffff;
   margin-top: 50px;
-  padding: 25px 0 115px;
+  padding: 25px 0 25px;
 }
 
 #about_me h1 {
@@ -76,12 +76,10 @@ img {
   max-height: 200px;
   overflow: hidden;
   float: left;
+  margin-right: 20px;
 }
 
-#about_me p {
+#intro {
   line-height: 2;
-}
-
-p::first-line {
-  line-height: 1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
