@@ -84,3 +84,27 @@ img {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
 }
+
+footer {
+  background-color: #666666;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
+
+footer p {
+  margin-top: 30px;
+  color: #cccccc;
+  text-align: center;
+}
+
+.push {
+  background-color: #4aaaa5;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+}
