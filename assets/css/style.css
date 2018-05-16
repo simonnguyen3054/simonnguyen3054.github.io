@@ -51,11 +51,12 @@ li a {
   opacity: 0.5;
 }
 
-/* About Me <========================================> */
+/* header <========================================> */
 #header {
   background-color: #ffffff;
   margin-top: 50px;
   padding: 25px 0 25px;
+  overflow: hidden;
 }
 
 #header h1 {
@@ -72,6 +73,7 @@ hr {
   margin-bottom: 25px;
 }
 
+/* about me <========================================> */
 img {
   width: 200px;
 }
@@ -91,11 +93,16 @@ img {
 
 /* Portfolio <========================================> */
 .image-size {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   background-color: red;
+  margin-right: 25px;
+  float: left;
 }
 
+.img_row_two {
+  margin-top: 25px;
+}
 
 /* footer <========================================> */
 footer {
