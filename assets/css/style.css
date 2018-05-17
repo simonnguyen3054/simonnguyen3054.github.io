@@ -104,6 +104,34 @@ img {
   margin-top: 25px;
 }
 
+/* Contact <========================================> */
+#contact {
+  color: #777777;
+}
+
+#contact input {
+  margin-bottom: 10px;
+}
+
+#contact p {
+  margin-bottom: 3px;
+}
+
+input, textarea {
+  color: #777777;
+  width: 900px;
+}
+
+input[type='button'] {
+  background-color: #4aaaa5;
+  width: 100px;
+  color: #ffffff;
+  height: 30px;
+  margin-top: 10px;
+}
+
+
+
 /* footer <========================================> */
 footer {
   background-color: #666666;
