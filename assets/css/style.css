@@ -4,6 +4,14 @@ body {
   background-size: cover;
 }
 
+#container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 50px; /* height of footer */
+}
+
 /* center the body */
 .center {
   width: 960px;
@@ -117,12 +125,13 @@ img {
   margin-bottom: 3px;
 }
 
-input, textarea {
+input,
+textarea {
   color: #777777;
   width: 900px;
 }
 
-input[type='button'] {
+input[type="button"] {
   background-color: #4aaaa5;
   width: 100px;
   color: #ffffff;
@@ -130,29 +139,18 @@ input[type='button'] {
   margin-top: 10px;
 }
 
-
-
 /* footer <========================================> */
-footer {
+#footer-container {
   background-color: #666666;
   position: absolute;
-  left: 0;
-  right: 0;
   bottom: 0;
-  height: 50px;
   width: 100%;
-}
-
-footer p {
-  margin-top: 30px;
-  color: #cccccc;
+  border-top: #4aaaa5 solid 7px;
+  padding-top: 30px;
   text-align: center;
 }
 
-.push {
-  background-color: #4aaaa5;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 60px;
+#footer-container p {
+  margin-bottom: 3px;
+  color: #cccccc;
 }
