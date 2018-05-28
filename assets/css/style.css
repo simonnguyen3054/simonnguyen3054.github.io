@@ -18,6 +18,10 @@ body {
   margin: 0 auto;
 }
 
+#header {
+  margin-bottom: 50px;
+}
+
 /* Navigation <========================================> */
 #menu {
   background-color: #ffffff;
